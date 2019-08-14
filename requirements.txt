@@ -3,3 +3,4 @@ numpy
 seaborn
 sklearn
 plotly
+chart_studio
