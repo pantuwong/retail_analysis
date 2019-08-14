@@ -134,7 +134,7 @@ input('Enter to continue....')
 tx_monthly_order_avg = tx_uk.groupby('InvoiceYearMonth')['Revenue'].mean().reset_index()
 
 #print the dataframe
-tx_monthly_order_avg
+print(tx_monthly_order_avg.head(10).to_string())
 
 #plot the bar chart
 plot_data = [
