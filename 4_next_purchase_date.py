@@ -19,6 +19,9 @@ import plotly.io as pio
 
 import xgboost as xgb
 
+import warnings
+warnings.filterwarnings("ignore")
+
 #import the csv
 tx_data = pd.read_csv('data.csv', encoding = "ISO-8859-1")
 
