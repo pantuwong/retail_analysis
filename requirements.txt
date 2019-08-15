@@ -4,3 +4,4 @@ seaborn
 sklearn
 plotly
 chart_studio
+xgboost
